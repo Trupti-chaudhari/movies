@@ -1,0 +1,40 @@
+.trailer {
+   background-image: url(https://images.mid-day.com/images/images/2023/jan/Pathan-Movies12_d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-color:white ;
+    background-position: center;
+
+    .text {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5102415966386555) 32%, rgba(0, 0, 0, 0.01724439775910369) 100%);
+        height: 600px;
+        width: 400px;
+        padding: 50px;
+
+
+
+        h1 {
+            font-size: 70px;
+            color: rgb(224, 109, 132);
+        }
+
+        p {
+            font-size:20px;
+            color: aliceblue;
+        }
+
+        button {
+            height: 40px;
+            width: 300px;
+            font-size: 20px;
+            border: none;
+            border-radius: 10px;
+            background-color: blue;
+            color: aliceblue;
+
+        }
+    }
+
+}

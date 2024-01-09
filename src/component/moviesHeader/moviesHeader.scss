@@ -1,0 +1,49 @@
+
+@mixin property {
+    height: 40px;
+    width: 115px;
+    font-size: 15px;
+    border: none;
+    color: aliceblue;
+    background-color:#0f1014;
+}
+
+.header {
+    height: 150px;
+    width: 100%;
+    padding: 20px 20px;
+    border-bottom: 2px solid darkblue;
+    display: flex;
+    background-color: #0f1014;
+
+
+    h1 {
+        color: aliceblue;
+        font-size: xx-large;
+    }
+
+    select {
+        @include property();
+        margin-left: 200px;
+
+    }
+
+    select:hover {
+        color: aqua;
+        font-size: 20px;
+    }
+
+    button {
+        @include property();
+        margin-left: 10px;
+
+    }
+
+    button:hover {
+        color: aqua;
+        font-size: 20px;
+    }
+
+
+
+}

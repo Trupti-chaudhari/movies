@@ -1,0 +1,60 @@
+.poster {
+    background-color:#0f1014;
+    padding: 10px 10px;
+    position: relative;
+    height: 250px;
+    width: 200px;
+    min-width: 170px;
+
+    &:hover .zoomposter {
+        display: initial;
+    }
+
+    img {
+        width: 100%;
+        height: 300px;
+        border-radius: 10px;
+    }
+
+    .zoomposter {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        z-index: 1;
+        box-shadow: 0 0 20px #ccc;
+        padding: 10px 15px 15px;
+        background-color: black;
+
+        &,
+        img {
+            border-radius: 14px;
+        }
+
+        img {
+            height: 50%;
+        }
+
+        h3 {
+            color: #ccc;
+        }
+
+        .truncate {
+            text-overflow: ellipsis;
+            white-space: initial;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+        }
+
+        p {
+            font-size: 10px;
+            color: white;
+
+        }
+    }
+
+}

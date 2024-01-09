@@ -1,0 +1,48 @@
+.title {
+    color: white;
+}
+.loading{
+    color: white;
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+    height: 150px;
+}
+
+.list {
+    display: flex;
+    overflow: auto;
+    position: relative;
+    &:hover button{
+        display: initial;
+   }
+
+    >div{
+        max-width: 100%!important;
+    }
+    button {
+        display: none;
+        min-width: 60px;
+        position: absolute;
+        z-index: 1;
+        border: none;
+        background-color:#0f10141c ;
+        color: white;
+        font-size: x-large;
+        font-weight: 700;
+        top: 50%;
+        transform: translateY(-75%);
+
+       
+
+        &:first-of-type {
+            left: 0;
+
+        }
+
+        &:last-of-type {
+            right: 0;
+        }
+
+    }
+}
